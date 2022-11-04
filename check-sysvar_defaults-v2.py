@@ -34,6 +34,7 @@ def get_sysvar_info_from_doc(sysvar_doc_file_path):
 
     # Reads the doc sysvar doc file and collects the doc information of sysvars
     POS = []
+    lineNum = 0
     docs_sysvar_info_sum = []
     docs_sysvar_info_sum_dedup = []
 
